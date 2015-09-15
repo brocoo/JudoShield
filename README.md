@@ -20,7 +20,9 @@ $ git submodule add https://github.com/JudoPay/Judo-Security
 - Navigate to the Judo-Security/Framework Folder and add JudoSecure.Framework 
 - Click on the `+` button under the "Linked Frameworks and Libraries" section.
 - Select `Security.framework`, `CoreTelephony.framework` and `CoreLocation.framework` from the list presented
-
+- Open the "Build Settings" panel.
+- Search for 'Framework Search Paths' and add `$(PROJECT_DIR)/Judo-Security/Framework`
+- Search for 'Runpath Search Paths' and make sure it contains '@executable_path/Frameworks'
 
 ### Sign up for judopayments
 
