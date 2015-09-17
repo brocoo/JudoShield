@@ -4,28 +4,28 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/JudoSecure.h</key>
+		<key>Headers/JudoShield.h</key>
 		<data>
-		FGyqAWJL7CxcbgUJQt0pfSGIyFE=
+		QDnxBdTFitxrmQyMDlOxYnu3Wx4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wKzeYIe0o2XE94tfj198ALBzows=
+		R7K/K8goieeYEfg4Ag6XbutvIPE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		niEV8QKsStnVPpQX1K6/tKt0kKU=
+		Q0whh+lwM2dBS5A41xwy/JnHJ9I=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/JudoSecure.h</key>
+		<key>Headers/JudoShield.h</key>
 		<data>
-		FGyqAWJL7CxcbgUJQt0pfSGIyFE=
+		QDnxBdTFitxrmQyMDlOxYnu3Wx4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		niEV8QKsStnVPpQX1K6/tKt0kKU=
+		Q0whh+lwM2dBS5A41xwy/JnHJ9I=
 		</data>
 	</dict>
 	<key>rules</key>

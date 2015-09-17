@@ -1,6 +1,6 @@
 //
-//  JudoSecure.h
-//  JudoSecure
+//  JudoShield.h
+//  JudoShield
 //
 //  Created by Hamon Riazy on 11/08/2015.
 //  Copyright © 2015 Judo Payments. All rights reserved.
@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-FOUNDATION_EXPORT double JudoSecureVersionNumber;
+FOUNDATION_EXPORT double JudoShieldVersionNumber;
 
-FOUNDATION_EXPORT const unsigned char JudoSecureVersionString[];
+FOUNDATION_EXPORT const unsigned char JudoShieldVersionString[];
 
 
 @import CoreLocation;
 
-@interface JudoSecure : NSObject
+@interface JudoShield : NSObject
 
 
 /**
@@ -31,6 +31,6 @@ FOUNDATION_EXPORT const unsigned char JudoSecureVersionString[];
  *
  *  @return a collaboration of various different information sources to identify a certain device for fraud prevention
  */
-- (nonnull NSDictionary *)deviceSignal;
+- (nonnull NSDictionary<NSString *, NSObject *> *)deviceSignal;
 
 @end
