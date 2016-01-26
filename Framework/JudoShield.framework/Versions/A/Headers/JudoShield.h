@@ -2,6 +2,8 @@
 //  JudoShield.h
 //  JudoShield
 //
+//  Version 1.1.1
+//
 //  Copyright (c) 2016 Alternative Payments Ltd
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
