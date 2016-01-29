@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.vendored_frameworks = "Framework/JudoShield.framework"
+  s.frameworks = 'CoreTelephony'
 
 end
