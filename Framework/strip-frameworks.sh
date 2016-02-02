@@ -36,6 +36,12 @@ code_sign() {
 }
 
 # Set working directory to product’s embedded frameworks 
+cd "${SRCROOT}/JudoShield/"
+
+rm -rf Framework/JudoShield.framework
+
+cp -r Source/JudoShield.framework Framework/JudoShield.framework
+
 cd "${SRCROOT}/JudoShield/Framework/"
 
 if [ "$ACTION" = "install" ]; then
