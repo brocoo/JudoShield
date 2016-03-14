@@ -11,7 +11,7 @@ tools to identify bad actors. Protect profits and increase sales with judo's mob
 - Add JudoSecure as a [submodule](http://git-scm.com/docs/git-submodule) by opening the Terminal, changing into your project directory, and entering the following command:
 
 ```bash
-$ git submodule add https://github.com/JudoPay/Judo-Security
+$ git submodule add https://github.com/JudoPay/JudoShield.git
 ```
 
 - Select your application project the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
