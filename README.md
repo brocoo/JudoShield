@@ -17,12 +17,18 @@ $ git submodule add https://github.com/JudoPay/JudoShield.git
 - Select your application project the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
 - In the tab bar at the top of that window, open the "General" panel.
 - Click on the '+' button in 'Embedded Binaries' section
-- Navigate to the JudoShield/Framework Folder and add JudoSecure.Framework 
+- Navigate to the JudoShield/Framework Folder and add JudoShield.Framework 
 - Click on the `+` button under the "Linked Frameworks and Libraries" section.
 - Select `Security.framework`, `CoreTelephony.framework` and `CoreLocation.framework` from the list presented
 - Open the "Build Settings" panel.
 - Search for 'Framework Search Paths' and add `$(PROJECT_DIR)/JudoShield/Framework`
 - Search for 'Runpath Search Paths' and make sure it contains '@executable_path/Frameworks'
+
+- in case you only include JudoShield without the use of JudoKit, you also need to add the following script to your build phases
+
+```
+sh "${SRCROOT}/JudoShield/Framework/strip-frameworks.sh"
+```
 
 ### Sign up for judopayments
 
